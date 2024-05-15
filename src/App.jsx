@@ -1,31 +1,10 @@
 import * as React from 'react';
-import Button from '@mui/material/Button';
-
-import {
-    Experimental_CssVarsProvider as CssVarsProvider,
-    experimental_extendTheme as extendTheme,
-    useColorScheme,
-} from '@mui/material/styles';
-
-function ModeToggle() {
-    const { mode, setMode } = useColorScheme();
-    return (
-        <Button
-            onClick={() => {
-                setMode(mode === 'light' ? 'dark' : 'light');
-            }}
-        >
-            {mode === 'light' ? 'Turn dark' : 'Turn light'}
-        </Button>
-    );
-}
+import Board from './pages/Boards/_id';
 
 function App() {
     return (
         <>
-            <ModeToggle></ModeToggle>
-
-            <Button variant="contained">Hello world</Button>
+            <Board />
         </>
     );
 }
