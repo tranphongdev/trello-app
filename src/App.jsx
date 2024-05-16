@@ -1,4 +1,3 @@
-import * as React from 'react';
 import Board from './pages/Boards/_id';
 
 function App() {

@@ -1,7 +1,6 @@
 import { Avatar, AvatarGroup, Button, Chip, Tooltip } from '@mui/material';
 import Box from '@mui/material/Box';
-import React from 'react';
-import DashboardIcon from '@mui/icons-material/Dashboard';
+
 import VpnLockIcon from '@mui/icons-material/VpnLock';
 import AddToDriveIcon from '@mui/icons-material/AddToDrive';
 import BoltIcon from '@mui/icons-material/Bolt';
@@ -33,7 +32,6 @@ function BoardBar() {
                 justifyContent: 'space-between',
                 overflowX: 'auto',
                 bgcolor: (theme) => (theme.palette.mode === 'dark' ? '#34495e' : '#1976d2'),
-                borderBottom: '1px solid white',
                 paddingX: 2,
             }}
         >

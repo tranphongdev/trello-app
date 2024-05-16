@@ -1,24 +1,21 @@
-import React, { useState } from 'react';
-import ModeSelect from '~/components/ModeSelect';
+import { useState } from 'react';
 import Box from '@mui/material/Box';
-
 import { ReactComponent as trelloLogo } from '~/assets/mdi--trello.svg';
 import AppsIcon from '@mui/icons-material/Apps';
 import SvgIcon from '@mui/material/SvgIcon';
 import { Badge, Button, InputAdornment, TextField, Tooltip, Typography } from '@mui/material';
+import NotificationsNoneIcon from '@mui/icons-material/NotificationsNone';
+import HelpOutlineIcon from '@mui/icons-material/HelpOutline';
+import AddToPhotosIcon from '@mui/icons-material/AddToPhotos';
+import SearchIcon from '@mui/icons-material/Search';
+import CloseIcon from '@mui/icons-material/Close';
+
+import ModeSelect from '~/components/ModeSelect/ModeSelect';
 import Workspaces from './Menus/Workspaces';
 import Recent from './Menus/Recent';
 import Starred from './Menus/Starred';
 import Teamplates from './Menus/Teamplates';
-import theme from '../../theme';
-
-import NotificationsNoneIcon from '@mui/icons-material/NotificationsNone';
-import HelpOutlineIcon from '@mui/icons-material/HelpOutline';
 import Profiles from './Menus/Profiles';
-import AddToPhotosIcon from '@mui/icons-material/AddToPhotos';
-
-import SearchIcon from '@mui/icons-material/Search';
-import CloseIcon from '@mui/icons-material/Close';
 
 function AppBar() {
     const [searchValue, setSearchValue] = useState('');
