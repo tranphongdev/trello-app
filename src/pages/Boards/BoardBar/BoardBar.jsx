@@ -8,6 +8,8 @@ import FilterListIcon from '@mui/icons-material/FilterList';
 import PersonAddAlt1Icon from '@mui/icons-material/PersonAddAlt1';
 import LocalCafeIcon from '@mui/icons-material/LocalCafe';
 
+import { capitalizeFirstLetter } from '~/utils/formatters';
+
 const MENU_STYLES = {
     color: 'white',
     bgcolor: 'transparent',
@@ -21,7 +23,8 @@ const MENU_STYLES = {
     },
 };
 
-function BoardBar() {
+function BoardBar(props) {
+    const { board } = props;
     return (
         <Box
             sx={{
@@ -42,8 +45,8 @@ function BoardBar() {
                     gap: 2,
                 }}
             >
-                <Chip sx={MENU_STYLES} icon={<LocalCafeIcon />} label="TranPhongDev MERN Stack Board" clickable />
-                <Chip sx={MENU_STYLES} icon={<VpnLockIcon />} label="Public/Private Workspaces" clickable />
+                <Chip sx={MENU_STYLES} icon={<LocalCafeIcon />} label={board?.title} clickable />
+                <Chip sx={MENU_STYLES} icon={<VpnLockIcon />} label={capitalizeFirstLetter(board?.type)} clickable />
                 <Chip sx={MENU_STYLES} icon={<AddToDriveIcon />} label="Add To Google Drive" clickable />
                 <Chip sx={MENU_STYLES} icon={<BoltIcon />} label="Automation" clickable />
                 <Chip sx={MENU_STYLES} icon={<FilterListIcon />} label="Filters" clickable />
