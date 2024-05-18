@@ -1,8 +1,8 @@
 export const mockData = {
     board: {
         _id: 'board-id-01',
-        title: 'TranPhongDev MERN Stack Board',
-        description: 'Pro MERN stack Course',
+        title: 'TranPhongDev Board',
+        description: 'Course Basic',
         type: 'public', // 'private'
         ownerIds: [], // Những users là Admin của board
         memberIds: [], // Những users là member bình thường của board
@@ -28,7 +28,7 @@ export const mockData = {
                         columnId: 'column-id-01',
                         title: 'Title of card 01',
                         description: 'Markdown Syntax',
-                        cover: 'https://trungquandev.com/wp-content/uploads/2022/07/fair-mern-stack-advanced-banner-trungquandev.jpg',
+                        cover: 'https://images.pexels.com/photos/6962959/pexels-photo-6962959.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
                         memberIds: ['test-user-id-01'],
                         comments: ['test comment 01', 'test comment 02'],
                         attachments: ['test attachment 01', 'test attachment 02', 'test attachment 03'],
@@ -183,6 +183,20 @@ export const mockData = {
                     },
                 ],
             },
+            // {
+            //     _id: 'column-id-04',
+            //     boardId: 'board-id-01',
+            //     title: 'Emty Card 04',
+            //     cardOrderIds: ['column-id-04-placeholder-card'],
+            //     cards: [
+            //         {
+            //             _id: 'column-id-04-placeholder-card',
+            //             boardId: 'board-id-01',
+            //             columnId: 'column-id-04',
+            //             FE_PlaceholderCard: true,
+            //         },
+            //     ],
+            // },
         ],
     },
 };

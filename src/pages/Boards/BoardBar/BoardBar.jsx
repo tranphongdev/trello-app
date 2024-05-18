@@ -85,19 +85,19 @@ function BoardBar(props) {
                     <Tooltip title="tranphongdev">
                         <Avatar
                             alt="tranphongdev"
-                            src="https://scontent.fhan5-9.fna.fbcdn.net/v/t39.30808-6/357372337_1974092692955370_3935044616691468793_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeG7_PO6slmAgB597LSNV4CQs_RubswRavez9G5uzBFq979kGjEacn-fyYRVDxSMM9iGOij4rrzjZFA5CT-E0BPu&_nc_ohc=L_f0N5XCuTsQ7kNvgFnVk29&_nc_ht=scontent.fhan5-9.fna&oh=00_AYDm2gZVKiSSyaRtMeAtquRwuyF59BanQ35gviWMut9JVw&oe=664B63A3"
+                            src="https://images.pexels.com/photos/1672904/pexels-photo-1672904.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
                         />
                     </Tooltip>
                     <Tooltip title="tranphongdev">
                         <Avatar
                             alt="tranphongdev"
-                            src="https://scontent.fhan5-9.fna.fbcdn.net/v/t39.30808-6/357372337_1974092692955370_3935044616691468793_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeG7_PO6slmAgB597LSNV4CQs_RubswRavez9G5uzBFq979kGjEacn-fyYRVDxSMM9iGOij4rrzjZFA5CT-E0BPu&_nc_ohc=L_f0N5XCuTsQ7kNvgFnVk29&_nc_ht=scontent.fhan5-9.fna&oh=00_AYDm2gZVKiSSyaRtMeAtquRwuyF59BanQ35gviWMut9JVw&oe=664B63A3"
+                            src="https://images.pexels.com/photos/1205033/pexels-photo-1205033.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
                         />
                     </Tooltip>
                     <Tooltip title="tranphongdev">
                         <Avatar
                             alt="tranphongdev"
-                            src="https://scontent.fhan5-9.fna.fbcdn.net/v/t39.30808-6/357372337_1974092692955370_3935044616691468793_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeG7_PO6slmAgB597LSNV4CQs_RubswRavez9G5uzBFq979kGjEacn-fyYRVDxSMM9iGOij4rrzjZFA5CT-E0BPu&_nc_ohc=L_f0N5XCuTsQ7kNvgFnVk29&_nc_ht=scontent.fhan5-9.fna&oh=00_AYDm2gZVKiSSyaRtMeAtquRwuyF59BanQ35gviWMut9JVw&oe=664B63A3"
+                            src="https://images.pexels.com/photos/1121796/pexels-photo-1121796.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
                         />
                     </Tooltip>
                     <Tooltip title="tranphongdev">
